@@ -1,13 +1,14 @@
+//This program find product of digits.
 #include<stdio.h>
 int main(){
-    int n,digit,sum=0;
+    int n,digit,product=1;
     printf("Enter a number:");
     scanf("%d",&n);
     while(n!=0){
         digit=n%10;
-        sum=sum+digit;
+        product=product*digit;
         n=n/10;
     }
-    printf("The sum of digit of the number is:%d",sum);
+    printf("The product of the digits is:%d",product);
     return 0;
 }
