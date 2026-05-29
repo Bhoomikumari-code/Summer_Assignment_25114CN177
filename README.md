@@ -1,4 +1,4 @@
-# C Programming practice
+# SUMMER VACATION ASSIGNMENT
 This repository contains my daily c programming practice and summer vacation assignments.
 ## Topics Covered
 - Basics of C
