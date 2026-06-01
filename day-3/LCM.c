@@ -1,4 +1,4 @@
-//This program help to find the LCM of two numbers.
+//This program finds the LCM of two numbers.
 #include<stdio.h>
 int main(){
     int i,j,a,b,m,n,lcm=1;
