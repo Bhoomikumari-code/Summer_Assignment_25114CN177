@@ -1,0 +1,16 @@
+//This program takes input and display array.
+#include<stdio.h>
+int main(){
+    int n,i,a[100];
+    printf("Enter the size of array: ");
+    scanf("%d",&n);
+    printf("Enter the elements of array: ");
+    for(i=0;i<n;i++){   
+        scanf("%d",&a[i]);
+    }                                                                   
+    printf("the element of array are:");
+    for(i=0;i<n;i++){
+        printf("%d\n",a[i]);
+    }
+    return 0;
+}
